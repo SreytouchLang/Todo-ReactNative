@@ -62,6 +62,7 @@ const SignInScreen = () => {
               onChangeText={onChange}
               value={value}
               placeholder="Email"
+              autoCapitalize="none" 
               error={errors.email}
             />
           )}

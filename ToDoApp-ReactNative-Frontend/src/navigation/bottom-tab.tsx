@@ -6,6 +6,7 @@ import { useTheme } from "@shopify/restyle"
 import CategoriesStackNavigator from "./categories-stack"
 import HomeStackNavigator from "./home-stack"
 import { RootBottomTabParamList } from "./types"
+import React from "react"
 
 const Tab = createBottomTabNavigator<RootBottomTabParamList>()
 
